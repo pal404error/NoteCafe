@@ -1,7 +1,7 @@
 # notebook
 
 > A Vue.js project
-
+https://sabe.io/tutorials/building-note-taking-app-vue-js-firebase
 ## Build Setup
 
 ``` bash
