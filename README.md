@@ -1,4 +1,30 @@
-<h1 align="center">
- <img src= "https://export-download.canva.com/cULwk/DAE0focULwk/3/0/0001-15881697441.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220104T045748Z&X-Amz-Expires=38567&X-Amz-Signature=25bc1c587e83a37794707eba0f41ec7fbee4a7bfe4c78b108701e812bf6d6c5a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Hanover.png&response-expires=Tue%2C%2004%20Jan%202022%2015%3A40%3A35%20GMThttps://export-download.canva.com/cULwk/DAE0focULwk/3/0/0001-15881697441.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220104T045748Z&X-Amz-Expires=38567&X-Amz-Signature=25bc1c587e83a37794707eba0f41ec7fbee4a7bfe4c78b108701e812bf6d6c5a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Hanover.png&response-expires=Tue%2C%2004%20Jan%202022%2015%3A40%3A35%20GMT" />
-</h1>
-A Project repo 
+# notebook
+
+> A Vue.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
