@@ -14,12 +14,8 @@ import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set, get, update} from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBfI0LFYCN9AbtastKQ-XRCzdVW69_gb64",
-  authDomain: "notee-eb942.firebaseapp.com",
-  projectId: "notee-eb942",
-  storageBucket: "notee-eb942.appspot.com",
-  messagingSenderId: "1082831555961",
-  appId: "1:1082831555961:web:0411ac19cd73c9237f73a8"
+//config
+
 };
 
 const app = initializeApp(firebaseConfig);
