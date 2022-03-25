@@ -6,7 +6,14 @@ import 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-//config
+  databaseURL: "https://notecafev2-default-rtdb.asia-southeast1.firebasedatabase.app",
+  apiKey: "AIzaSyBcsc1YzNf6EEuI_m1vR-e0m2MaqYsZHfA",
+  authDomain: "notecafev2.firebaseapp.com",
+  projectId: "notecafev2",
+  storageBucket: "notecafev2.appspot.com",
+  messagingSenderId: "938464769996",
+  appId: "1:938464769996:web:a085ac37ee807d884c8f69",
+  measurementId: "G-RYLK81HF59"
 };
 
 firebase.initializeApp(firebaseConfig);
