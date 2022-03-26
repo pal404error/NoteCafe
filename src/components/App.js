@@ -10,6 +10,9 @@ import ForgotPassword from "./ForgotPassword"
 import UpdateProfile from "./UpdateProfile"
 import ToDoApp from "./ToDoApp"
 import NotesApp from "./NotesApp"
+import Pdf from "./pdf"
+import Logout from "./logout"
+import Chat from "./chat"
 
 function App() {
   return (
@@ -17,7 +20,7 @@ function App() {
       className="d-flex align-items-center justify-content-center"
       style={{ minHeight: "100vh" }}
     >
-      <div className="w-100" style={{ maxWidth: "400px" }}>
+      <div className="w-100" >
         <Router>
           <AuthProvider>
             <Switch>
@@ -25,6 +28,10 @@ function App() {
               <PrivateRoute path="/update-profile" component={UpdateProfile} />
               <PrivateRoute path="/todo" component={ToDoApp} />
               <PrivateRoute path="/note" component={NotesApp} />
+              <PrivateRoute path="/pdf" component={Pdf} />
+              <PrivateRoute path="/logout" component={Logout} />
+              <PrivateRoute path="/chat" component={Chat} />
+
               <Route path="/signup" component={Signup} />
               <Route path="/login" component={Login} />
               <Route path="/forgot-password" component={ForgotPassword} />

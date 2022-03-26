@@ -28,7 +28,7 @@ export default function Dashboard() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <div className="w3-top">
           <div className="w3-bar w3-red w3-card w3-left-align w3-large">
-            <a className="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="#" title="Toggle Navigation Menu"><i className="fa fa-bars"></i></a>
+          <a className="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="#" title="Toggle Navigation Menu"><i className="fa fa-bars"></i></a>
             <a href="#" className="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
             <a href="#NOTES" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Notes</a>
             <a href="#TODO" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">To-Do List</a>
@@ -36,10 +36,12 @@ export default function Dashboard() {
             <a href="#PDF" className="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Pdf Reader</a>
           </div>
           <div id="navDemo" className="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-            <a href="#NOTES" className="w3-bar-item w3-button w3-padding-large">Notes</a>
-            <a href="#TODO" className="w3-bar-item w3-button w3-padding-large"> To-Do List </a>
-            <a href="#CHAT" className="w3-bar-item w3-button w3-padding-large">Community Chat</a>
-            <a href="#PDF" className="w3-bar-item w3-button w3-padding-large">Pdf Reader</a>
+          <a href="/" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="/note" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Notes</a>
+    <a href="/todo" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">To-Do List</a>
+    <a href="/chat" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Community Chat</a>
+    <a href="/pdf" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Pdf Reader</a>
+    <a href="/logout" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">LOGOUT</a>
           </div>
         </div>
         <header className="w3-container w3-red w3-center" >
@@ -88,7 +90,7 @@ export default function Dashboard() {
               <h1>Community Chat</h1>
               <h5 className="w3-padding-32">Users can chat together and share their views and queries also if required can share images and screenshots of their Codes.</h5>
 
-              <a target="_blank" href="#">
+              <a target="_blank" href="/chat">
                 <input  type="button" className="Choice-buttons" value="Go There"/>
                 </a>
 
@@ -109,7 +111,7 @@ export default function Dashboard() {
             <div className="w3-twothird">
               <h1>PDF Reader</h1>
               <h5 className="w3-padding-32">Users can open up PDF to read the data just by giving the url or giving the directory location from your pc and you can easily open your pdf while working.</h5>
-              <a target="_blank" href="PDF-Reader.html">
+              <a target="_blank" href="/pdf">
               <input  type="button" className="Choice-buttons" value="Go There"/>
               </a>
             </div>
