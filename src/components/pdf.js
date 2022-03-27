@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 
 export default function Pdf() {
     return(
@@ -20,14 +21,18 @@ export default function Pdf() {
 </div>
 <head>
     <title>PDF Reader</title>
-
-    <script src="script.js" charset="utf-8"></script>
+    <helmet><script>
+    function link(mypdf) {
+    document.getElementById("ifram").src= document.getElementById("mypdf").value
+    }
+    </script></helmet>
+    
     <link href="pdf.css" rel="stylesheet" />
   </head>
   <body>
     <br /> <br/> <br/> <br/>
     <h3 id="bott">Paste link to upload your pdf :</h3>
-    <input id="txt" type="text" name="PDF"  onchange="link(mypdf)" />
+    <input id="txt" type="text" name="PDF"  onchange="link(mypdf)" value="" />
     <iframe src="" width="100%" height="700px" id="ifram">
     </iframe>
   </body>

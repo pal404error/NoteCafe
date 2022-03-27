@@ -7,14 +7,12 @@ import Dashboard from "./Dashboard"
 import Login from "./Login"
 import PrivateRoute from "./PrivateRoute"
 import ForgotPassword from "./ForgotPassword"
-import UpdateProfile from "./UpdateProfile"
 import ToDoApp from "./ToDoApp"
 import NotesApp from "./NotesApp"
 import Pdf from "./pdf"
 import Logout from "./logout"
 import Chat from "./chat"
 import welcome from "./welcome"
-import hel from "./hello"
 
 function App() {
   return (
@@ -27,13 +25,12 @@ function App() {
           <AuthProvider>
             <Switch>
               <PrivateRoute exact path="/" component={Dashboard} />
-              <PrivateRoute path="/update-profile" component={UpdateProfile} />
+
               <PrivateRoute path="/todo" component={ToDoApp} />
               <PrivateRoute path="/note" component={NotesApp} />
               <PrivateRoute path="/pdf" component={Pdf} />
               <PrivateRoute path="/logout" component={Logout} />
               <PrivateRoute path="/chat" component={Chat} />
-              <PrivateRoute path="/hel" component={hel} />
               <Route path="/welcome" component={welcome} />
               <Route path="/signup" component={Signup} />
               <Route path="/login" component={Login} />
