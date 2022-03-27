@@ -1,15 +1,17 @@
 import React, { Component } from "react";
+import ReactDOM from 'react-dom';
 import "./wel.css"
 class App extends Component{
     render(){
         return(
-            <body id="page-top">
+            <>
+            <div id="page-top">
             <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" ></script>
             <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
             <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
             <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
                 <div className="container px-4 px-lg-5">
-                    <a className="navbar-brand" href="#page-top">Note Café</a>
+                    <a className="navbar-brand" href="#page-top">Note Cafe</a>
                     <button className="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         Menu
                         <i className="fas fa-bars"></i>
@@ -147,7 +149,8 @@ class App extends Component{
             <script src="js/scripts.js"></script>
     
             <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-        </body>
+        </div>
+        </>
         )
     }
 

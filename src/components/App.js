@@ -14,6 +14,7 @@ import Pdf from "./pdf"
 import Logout from "./logout"
 import Chat from "./chat"
 import welcome from "./welcome"
+import hel from "./hello"
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
               <PrivateRoute path="/pdf" component={Pdf} />
               <PrivateRoute path="/logout" component={Logout} />
               <PrivateRoute path="/chat" component={Chat} />
+              <PrivateRoute path="/hel" component={hel} />
               <Route path="/welcome" component={welcome} />
               <Route path="/signup" component={Signup} />
               <Route path="/login" component={Login} />
