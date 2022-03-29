@@ -1,0 +1,249 @@
+@font-face {
+	font-family: font1;
+    src: url("font.otf");
+	
+}
+.body{
+background-image: url('https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+color: darkslategrey !important;
+width: 100%;
+height: 100%;
+}
+.alt{
+position:relative;
+top:6%;
+font-size:30px;
+font-family: font1;
+}
+.alt ul li{
+	list-style:none;
+	margin-top:30px;
+}
+.music{
+	float:right;
+	margin-top:20%;
+	margin-right:5%;
+	font-family:font1;
+}
+.button{
+	background-color: #000000;
+	border: 2px solid #000000;
+	}
+
+
+.music ul li{
+	display:inline;
+	vertical-align: middle
+}
+
+.img{
+	margin:auto;
+	width:70px;
+	
+}
+.mar{
+position:absolute;
+left:8%;
+font-family: font;
+}
+p.text{
+	font-family: font1;
+	font-size: 84px;
+}
+.text1{
+	
+	width:99%;
+display: flex;
+display: flex;
+align-items: center;
+justify-content: center;
+	font-family: font1;
+	font-size: 30px;
+}
+.text1 ul li{
+	list-style:none;
+	display:inline;
+	margin: 15px;
+}
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: x-large;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: grey !important;
+  
+  text-decoration: none !important;
+}
+
+/* selected link */
+a:active {
+  color: grey;
+  text-decoration: none;
+}
+
+
+
+li#welcome1 {
+  text-align-last: center;
+  background-color: deepskyblue;
+  width: 15%;
+  height: 15%;
+  border-radius: 10px;
+  float: right;
+  margin-top: 10%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  list-style: none;
+}
+li:hover{
+	color: whitesmoke;
+}
+
+p#tite {
+  font-size: xx-large;
+  text-align: center;
+  width: 100%;
+  margin-top: 190px;
+  color: black;
+}
+
+
+header#heed {
+  text-align: center;
+  background-color: cadetblue;
+  width: 100%;
+  height: 50%;
+  padding: 20px;
+  font-weight: bold;
+  font-size: xxx-large;
+}
+
+
+
+
+
+
+
+
+     /* NEW PAGE 1 */
+
+
+
+
+     .title-contain {
+      display: flex;
+      flex-wrap: inherit;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  div#navbarResponsive {
+    justify-content: end;
+    align-content: space-between;
+}
+
+.title-contain {
+  width: 100%;
+  height: 10%;
+}
+nav#Main-Nav {
+  background-color: #20ccde85;
+  padding: 20px;
+}
+
+.img-head
+{
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/public/assets/img/Bg_img_notecafe.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header#img-head {
+  height: 1135px;
+  margin-top: -30%;
+  align-content: space-evenly;
+  background: darkslategrey;
+}
+h2#txt-2 {
+  margin-top: 50%;
+  font-size: x-large;
+    text-align: center;
+    color: whitesmoke;
+}
+.navbar-light .navbar-brand {
+  color: rgb(255 255 255 / 70%) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255 255 255 / 70%) !important;
+}
+
+a#butn-1 {
+  background-color: #ece996;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+a:hover {
+  color: #0091bc !important;
+  text-decoration: none !important;
+}
+
+div#buttnn {
+  text-align: -webkit-center;
+}
+
+
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.about-section p {
+  margin-bottom: 5rem;
+}
+
+#mainNav.navbar-shrink {
+  background-color: #43778b !important;
+}
+
+h2.text-white.mb-4 {
+  color: black !important;
+  font-weight: 700;
+}
+p.text-white-50 {
+  color: black !important;
+  font-size: x-large;
+}
+
+.container.aa {
+  max-width: 100% !important;
+}
+
+.picsss {
+  margin: 5%;
+  padding: 1%;
+}
+
+h4.text-white {
+  color: black !important;
+  background-color: blanchedalmond;
+}

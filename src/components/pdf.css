@@ -1,0 +1,33 @@
+body {
+    background-color: darkslategrey;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg);
+}
+.headd{
+    text-align: center;
+}
+h1#headd {
+    text-align: center;
+    background: darkgray;
+    color: darkslategrey;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 4px 4px 10px 1px rgb(192 228 240);
+    cursor: default;
+}
+h3#bott {
+    background-color: lightblue;
+    color: grey;
+    width: 17%;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    cursor: default;
+}
+input#txt {
+    background-color: #dedcdc;
+    margin: 10px;
+    color: darkslategrey;
+}
+
+
+input#txt {margin-left: 35%;}
