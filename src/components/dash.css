@@ -1,0 +1,52 @@
+header.w3-container.w3-red.w3-center {
+    padding: 22% 16px !important;
+}
+.fa-solid fa-note{
+    color: black;
+}
+.w3-bar.w3-red.w3-card.w3-left-align.w3-large {
+    background-color: darkslategrey !important;
+}
+.w3-red{
+    color: #fff!important;
+    background-color: darkslategrey!important;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg);
+}
+.Choice-buttons {
+    background-color: darkslategray;
+    color: whitesmoke;
+    padding: 1%;
+    border-radius: 10px;
+    border: unset;
+    box-shadow: 8px 7px 6px lightblue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+i#notee {
+    position: relative;
+    top: -20px;
+    margin: 10%;
+    color: #3b3b3b;
+    font-size: 1500%;
+}
+i#ico{
+    font-size: 200%;
+    margin: 1%;
+}
+.Choice-buttons:hover {
+    background-color: rgb(71, 128, 76);
+    color: rgb(255, 255, 255);
+    padding: 1%;
+    border-radius: 5px;
+    border: unset;
+    box-shadow: 8px 7px 6px lightblue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+h1.w3-margin.w3-jumbo {
+    font-weight: 700;
+}
+
+p#copyright {
+    text-align: -webkit-center;
+}
